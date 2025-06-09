@@ -93,7 +93,7 @@ services:
 
   frontend:
     container_name: bisheng-frontend
-    image: dataelement/bisheng-frontend:v1.2.0
+    image: pulsar-med/bisheng-frontend:v1.2.0
     ports:
       - "3001:3001"
     environment:
