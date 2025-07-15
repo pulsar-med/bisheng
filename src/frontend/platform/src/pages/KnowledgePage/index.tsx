@@ -35,10 +35,10 @@ export default function index() {
                     <TabsTrigger value="qa" className="roundedrounded-xl">{t('lib.qaData')}</TabsTrigger>
                     <TabsTrigger value="law">{t('lib.lawData')}</TabsTrigger>
                 </TabsList>
-                <TabsContent value="qa" className="flex-1 overflow-hidden">
+                <TabsContent value="qa" className="flex-1">
                     <KnowledgeQa />
                 </TabsContent>
-                <TabsContent value="file" className="flex-1 overflow-hidden">
+                <TabsContent value="file" className="flex-1">
                     <KnowledgeFile />
                 </TabsContent>
                 <TabsContent value="law" className="flex-1 overflow-hidden">
